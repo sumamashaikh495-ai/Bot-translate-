@@ -1,5 +1,4 @@
-# main.py
-# Is poore code ko 'main.py' naam ki file mein save karein.
+
 
 import os
 import httpx
@@ -7,10 +6,7 @@ from telegram import Update, InputFile
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 import io
 
-# --- Configuration ---
-# !!! SABSE ZAROORI !!!
-# Yahan neeche quotes ke andar apna Telegram Bot Token daalein
-# jo aapko BotFather se mila tha.
+
 TELEGRAM_TOKEN = "7998202742:AAFTHFAQLWIGPCfqreuLlgZZ9-_SXTY8S6w"
 
 # User's Gemini API key ko store karne ke liye ek simple dictionary.
